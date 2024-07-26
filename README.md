@@ -7,11 +7,13 @@ NiCo package designed to uncover covariation patterns between interacting cell t
 
 ### Key Features <br> 
 * **Cell Type Annotation**: Perform accurate cell type annotations on single cell resolution spatial transcriptomics data. <br> 
-* **Niche Interaction**: Identify and analyze colocalize interactions between different cell types within their tissue niches. <br> 
-* **Covariation**: Discover covariate between colocalized cell types to understand the cross talk of gene module and enrichment of pathways in the niche.  <br>
+* **Niche Interaction**: Identify and analyze colocalized interactions between different cell types within their tissue niches. <br> 
+* **Covariation**: Discover covariates between colocalized cell types to understand the cross-talk of gene modules and the enrichment of pathways in the niche.  <br>
 
 
-Ready for use! <br> Tutorials and Documentation are available!
+Ready for use! <br> 
+Tutorials and Documentation are available!
+
 
 
 ### Installation  
@@ -24,7 +26,7 @@ pip install nico-sc-sp
 pip install jupyterlab
 ```
 
-Sometimes, the pygraphviz package cannot be installed via pip, or during the cell type interaction part it gives error that "neato" not found in path so an alternative conda way of installation is recommended. Please follow the installation of pygraphviz [here](https://pygraphviz.github.io/documentation/stable/install.html)
+Sometimes, the ``pygraphviz`` package cannot be installed via pip, or during the cell type interaction part it gives error that "neato" not found in path so an alternative conda way of installation is recommended. Please follow the installation of pygraphviz [here](https://pygraphviz.github.io/documentation/stable/install.html)
 
 ```shell
 conda create -y -n nicoUser python=3.11
@@ -68,7 +70,7 @@ from nico import Covariations as scov
 
 
 # Tutorials
-To help you get started quickly, detailed tutorials are available. These tutorials will guide you through the process of setting up and using NiCo for various applications. <br> 
+Detailed tutorials are available to help you get started quickly. These tutorials will guide you through setting up and using NiCo for various applications. <br> 
 https://github.com/ankitbioinfo/nico_tutorial 
 
 # Documentations
