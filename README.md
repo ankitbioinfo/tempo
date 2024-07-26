@@ -72,7 +72,6 @@ To help you get started quickly, detailed tutorials are available. These tutoria
 https://github.com/ankitbioinfo/nico_tutorial 
 
 # Documentations
-
 Comprehensive documentation is available to guide you through the installation, usage, and features of NiCo. <br>
 https://nico-sc-sp.readthedocs.io/en/latest/
 
