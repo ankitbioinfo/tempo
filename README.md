@@ -91,4 +91,4 @@ pyliger <br>
 https://github.com/welch-lab/pyliger
 
 ### Contact
-For any questions or issues, please feel free to contact [Your Email](ankitplusplus at gmail.com). Your feedback and contributions are always welcome!
+For any questions or issues, please feel free to contact [ankitplusplus at gmail.com]. Your feedback and contributions are always welcome!
