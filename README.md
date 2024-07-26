@@ -14,7 +14,8 @@ NiCo package designed to uncover covariation patterns between interacting cell t
 Ready for use! <br> Tutorials and Documentation are available!
 
 
-### Install the NiCo package using the conda environment.  
+### Installation  
+Install the NiCo package using the conda environment. This ensures all dependencies are correctly managed and installed.
 
 ```shell
 conda create -n nicoUser python=3.11
@@ -34,8 +35,8 @@ pip install jupyterlab
 ```
 
 ### Required packages built upon
-By default, these packages should install automatically.
-But if any version conflict exists, the user can install the specific version independently using pip command.
+By default, these packages should install automatically. However, if any version conflicts arise, you can manually install the specific versions using pip.
+
 ```shell
 scanpy==1.9.6
 seaborn==0.12.2
@@ -54,7 +55,9 @@ pandas==2.1.1
 leidenalg
 ```
 
-### Import the functions from the Python prompt in the following way.  
+### Usage 
+
+Import the NiCo functions in your Python script or Jupyter Notebook as follows:
 
 ```python
 from nico import Annotations as sann
@@ -65,23 +68,26 @@ from nico import Covariations as scov
 
 
 # Tutorials
-Please follow the NiCo tutorial here. <br> 
+To help you get started quickly, detailed tutorials are available. These tutorials will guide you through the process of setting up and using NiCo for various applications. <br> 
 https://github.com/ankitbioinfo/nico_tutorial 
 
 # Documentations
 
-Please follow the NiCo documentation here. <br>
+Comprehensive documentation is available to guide you through the installation, usage, and features of NiCo. <br>
 https://nico-sc-sp.readthedocs.io/en/latest/
 
 # Reference 
-Ankit Agrawal, Stefan Thomann, Sukanya Basu, Dominic Grün. NiCo Identifies Extrinsic Drivers of Cell State Modulation by Niche Covariation Analysis. Submitted, 2024
+Ankit Agrawal, Stefan Thomann, Sukanya Basu, Dominic Grün. NiCo Identifies Extrinsic Drivers of Cell State Modulation by Niche Covariation Analysis. Submitted (under review), 2024
 
 
-### Check out more:
-Thanks to the following two utils packages used to develop NiCo.
+### Additional Resources:
+Special thanks to the following utility packages used in the development of NiCo:
 
 SCTransformPy <br>
 https://github.com/atarashansky/SCTransformPy
 
 pyliger <br> 
 https://github.com/welch-lab/pyliger
+
+### Contact
+For any questions or issues, please feel free to contact [Your Email](ankitplusplus at gmail.com). Your feedback and contributions are always welcome!
