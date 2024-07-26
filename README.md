@@ -27,6 +27,16 @@ pip install nico-sc-sp
 pip install jupyterlab
 ```
 
+Sometimes, the pygraphviz package cannot be installed via pip, or during the cell type interaction part it gives error that "neato" not found in path so an alternative conda way of installation is recommended. Please follow the installation of pygraphviz [here](https://pygraphviz.github.io/documentation/stable/install.html)
+
+```console
+conda create -y -n nicoUser python=3.11
+conda activate nicoUser
+conda install -c conda-forge pygraphviz
+pip install nico-sc-sp
+pip install jupyterlab
+```
+
 # Required packages built upon
 By default, these packages should install automatically.
 But if any version conflict exists, the user can install the specific version independently using pip command.
@@ -56,16 +66,16 @@ from nico import Interactions as sint
 from nico import Covariations as scov
 ```
 
-# Documentations
 
-Please follow the NiCo documentation here.
-
-https://nico-sc-sp.readthedocs.io/en/latest/
 
 # Tutorials
-Please follow the NiCo tutorial here.
-
+Please follow the NiCo tutorial here. <br> 
 https://github.com/ankitbioinfo/nico_tutorial 
+
+# Documentations
+
+Please follow the NiCo documentation here. <br>
+https://nico-sc-sp.readthedocs.io/en/latest/
 
 # Reference 
 Ankit Agrawal, Stefan Thomann, Sukanya Basu, Dominic Grün. NiCo Identifies Extrinsic Drivers of Cell State Modulation by Niche Covariation Analysis. Submitted, 2024
@@ -74,10 +84,8 @@ Ankit Agrawal, Stefan Thomann, Sukanya Basu, Dominic Grün. NiCo Identifies Extr
 # Check out more:
 Thanks to the following two utils packages used to develop NiCo.
 
-SCTransformPy
-
+SCTransformPy <br>
 https://github.com/atarashansky/SCTransformPy
 
-pyliger
-
+pyliger <br> 
 https://github.com/welch-lab/pyliger
