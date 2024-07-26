@@ -12,7 +12,7 @@ NiCo package designed to uncover covariation patterns between interacting cell t
 
 
 Ready for use! <br> 
-Tutorials and Documentation are available!
+Tutorials and documentation are available!
 
 
 
