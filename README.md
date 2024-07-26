@@ -2,13 +2,13 @@
 
 Developed by Ankit Agrawal (c) Grün lab 2024
 
-NiCo is a powerful package designed to uncover covariation patterns between interacting cell types from image-based single-cell resolution spatial transcriptomics data. It enables comprehensive cell type annotations, niche interaction discoveries, and the analysis of covariation patterns between interacting cell types.
+NiCo package designed to uncover covariation patterns between interacting cell types from image-based single-cell resolution spatial transcriptomics data. It enables comprehensive cell type annotations, niche interaction discoveries, and the analysis of covariation patterns between interacting cell types.
 
 
-Key Features
-Cell Type Annotation: Perform accurate cell type annotations on spatial transcriptomics data.
-Niche Interaction Analysis: Identify and analyze interactions between different cell types within their niches.
-Covariation Pattern Detection: Discover covariation patterns between interacting cell types to understand their relationships better.
+### Key Features <br> 
+Cell Type Annotation: Perform accurate cell type annotations on spatial transcriptomics data. <br> 
+Niche Interaction Analysis: Identify and analyze interactions between different cell types within their tissue niches. <br> 
+Covariation between colocalized cell types: Discover covariation patterns between interacting cell types to understand their covariate <br>.
 
 Find covariation patterns between interacting cell types from image-based single cell resolution spatial transcriptomics data.
 
