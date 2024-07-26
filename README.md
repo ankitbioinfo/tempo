@@ -26,7 +26,7 @@ pip install nico-sc-sp
 pip install jupyterlab
 ```
 
-Sometimes, the ``pygraphviz`` package cannot be installed via pip, or during the cell type interaction part it gives error that "neato" not found in path so an alternative conda way of installation is recommended. Please follow the installation of pygraphviz [here](https://pygraphviz.github.io/documentation/stable/install.html)
+Sometimes, the ``pygraphviz`` package cannot be installed via pip, or during the cell type interaction part, it gives an error that "neato" is not found in path, so an alternative conda way of installation is recommended. Please follow the installation of ``pygraphviz`` [here](https://pygraphviz.github.io/documentation/stable/install.html)
 
 ```shell
 conda create -y -n nicoUser python=3.11
@@ -61,7 +61,7 @@ leidenalg
 
 Import the NiCo functions in your Python script or Jupyter Notebook as follows:
 
-```python
+```
 from nico import Annotations as sann
 from nico import Interactions as sint
 from nico import Covariations as scov
