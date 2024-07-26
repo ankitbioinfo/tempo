@@ -11,7 +11,7 @@ NiCo package designed to uncover covariation patterns between interacting cell t
 * **Cell type Covariation**: Discover covariate between colocalized cell types to understand the cross talk of gene module and enrichment of pathways involved in niche.  <br>
 
 
-Ready for use! Tutorials and Documentation are available!
+Ready for use! <br> Tutorials and Documentation are available!
 
 
 ## Install the NiCo package using the conda environment.  
