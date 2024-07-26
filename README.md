@@ -14,7 +14,7 @@ NiCo package designed to uncover covariation patterns between interacting cell t
 Ready for use! <br> Tutorials and Documentation are available!
 
 
-## Install the NiCo package using the conda environment.  
+### Install the NiCo package using the conda environment.  
 
 ```shell
 conda create -n nicoUser python=3.11
@@ -25,7 +25,7 @@ pip install jupyterlab
 
 Sometimes, the pygraphviz package cannot be installed via pip, or during the cell type interaction part it gives error that "neato" not found in path so an alternative conda way of installation is recommended. Please follow the installation of pygraphviz [here](https://pygraphviz.github.io/documentation/stable/install.html)
 
-```console
+```shell
 conda create -y -n nicoUser python=3.11
 conda activate nicoUser
 conda install -c conda-forge pygraphviz
@@ -33,7 +33,7 @@ pip install nico-sc-sp
 pip install jupyterlab
 ```
 
-# Required packages built upon
+### Required packages built upon
 By default, these packages should install automatically.
 But if any version conflict exists, the user can install the specific version independently using pip command.
 ```shell
@@ -54,7 +54,7 @@ pandas==2.1.1
 leidenalg
 ```
 
-# Import the functions from the Python prompt in the following way.  
+### Import the functions from the Python prompt in the following way.  
 
 ```python
 from nico import Annotations as sann
@@ -77,7 +77,7 @@ https://nico-sc-sp.readthedocs.io/en/latest/
 Ankit Agrawal, Stefan Thomann, Sukanya Basu, Dominic Grün. NiCo Identifies Extrinsic Drivers of Cell State Modulation by Niche Covariation Analysis. Submitted, 2024
 
 
-# Check out more:
+### Check out more:
 Thanks to the following two utils packages used to develop NiCo.
 
 SCTransformPy <br>
