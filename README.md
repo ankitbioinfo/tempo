@@ -8,7 +8,7 @@ NiCo package designed to uncover covariation patterns between interacting cell t
 ### Key Features <br> 
 * **Cell Type Annotation**: Perform accurate cell type annotations on single cell resolution spatial transcriptomics data. <br> 
 * **Niche Interaction**: Identify and analyze colocalize interactions between different cell types within their tissue niches. <br> 
-* **Cell type Covariation**: Discover covariate between colocalized cell types to understand the cross talk of gene module and enrichment of pathways involved in niche.  <br>
+* **Covariation**: Discover covariate between colocalized cell types to understand the cross talk of gene module and enrichment of pathways in the niche.  <br>
 
 
 Ready for use! <br> Tutorials and Documentation are available!
